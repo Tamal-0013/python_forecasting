@@ -1,0 +1,39 @@
+demand-forecasting-workforce-planning/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   ├── train.csv
+│   │   ├── test.csv
+│   │   └── store.csv
+│   │
+│   └── processed/
+│       └── merged_sales.csv
+│
+├── notebooks/
+│   ├── 01_data_loading_and_cleaning.ipynb
+│   ├── 02_exploratory_data_analysis.ipynb
+│   ├── 03_time_series_analysis.ipynb
+│   ├── 04_feature_engineering.ipynb
+│   ├── 05_baseline_forecasting.ipynb
+│   ├── 06_forecasting_models.ipynb
+│   ├── 07_model_evaluation.ipynb
+│   └── 08_workforce_scenario_analysis.ipynb
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── forecasting.py
+│   ├── evaluation.py
+│   └── workforce_model.py
+│
+├── models/
+│
+├── reports/
+│   ├── figures/
+│   └── project_report.md
+│
+├── requirements.txt
+│
+└── .gitignore
