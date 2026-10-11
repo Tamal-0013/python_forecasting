@@ -1,0 +1,2 @@
+Model,MAE,RMSE,MAPE_Percent,Test_Start,Test_End,Evaluation_Observations
+Previous Week Baseline,2191.872498882876,2830.1258134672426,32.09431569282975,2015-06-20,2015-07-31,40282
